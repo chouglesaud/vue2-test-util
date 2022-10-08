@@ -8,7 +8,6 @@
     "lint": "vue-cli-service lint",
     "test": "jest"
   },
-  "type": "module",
   "dependencies": {
     "@vue/cli-plugin-babel": "4.1.1",
     "vue": "^2.6.11"
