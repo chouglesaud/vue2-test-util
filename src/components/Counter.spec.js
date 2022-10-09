@@ -1,6 +1,3 @@
-/**
- * @jest-environment jsdom
- */
 import { mount, createLocalVue, Wrapper } from '@vue/test-utils';
 import Counter from './Counter.vue';
 
@@ -11,7 +8,7 @@ describe('Counter.vue', () => {
    * @type {Wrapper}
    */
   let wrapper;
-
+  
   beforeAll(() => {
     wrapper = null;
   });

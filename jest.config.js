@@ -1,6 +1,6 @@
 module.exports = {
   verbose: true,
-  testEnvironment: "jest-environment-jsdom",
+  testEnvironment: "jsdom",
   moduleFileExtensions: ["js", "json", "vue"],
   moduleDirectories: ["node_modules", "<rootDir>"],
   moduleNameMapper: {
